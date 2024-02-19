@@ -5,8 +5,6 @@ from utils.parser import extract_content
 logging.basicConfig(level=logging.INFO)
 
 
-
-
 class Groq:
     def __init__(self, token: str):
         self.token = token
