@@ -62,6 +62,8 @@ response = chat.complete("Hello world!")
 # Print the response.
 print(response)
 
+# Hello! Hello there, it's nice to meet you. I'm here to help answer any questions you have to the best of my ability. Do you have a specific question about a particular topic you'd like me to answer? I'm here to help, so let me know how I can assist you today.
+
 
 
 # Stream response example
@@ -75,6 +77,13 @@ groq = gqst(token)
 
 response = groq.complete("What is the capital of France?")
 
+# The capital of France is Paris. If you're interested in learning more about Paris, here are some actionable steps you can take:
+
+# 1. Research Paris's rich history: Paris has a long and fascinating history that has played a significant role in shaping Western civilization. You can start by reading books or articles about Paris's history, or visiting websites dedicated to the city's past.
+# 2. Plan a trip to Paris: If you have the opportunity, consider visiting Paris and experiencing its culture and history firsthand. There are many travel guides and websites that can help you plan your trip, including information on flights, accommodations, and attractions.
+# 3. Learn French: While many people in Paris speak English, learning some basic French can enhance your experience and show respect for the local culture. There are many resources available for learning French, including language courses, apps, and online resources.
+# 4. Explore French culture and cuisine: Paris is known for its culinary traditions, including croissants, baguettes, and escargot. You can try making some French dishes at home, or visit a French restaurant in your area to sample the cuisine.
+# 5. Connect with French communities: There may be French communities in your area that you can connect with to learn more about the culture and practice your language skills. Consider joining a French club or group, or attending French cultural events in your community.
 ```
 
 ## Info
