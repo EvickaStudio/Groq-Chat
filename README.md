@@ -61,6 +61,20 @@ response = chat.complete("Hello world!")
 
 # Print the response.
 print(response)
+
+
+
+# Stream response example
+from text_completion.completion_stream import Groq as gqst
+
+# Get Token
+token = Token().get_token()
+
+# Initialize Groq with token
+groq = gqst(token)
+
+response = groq.complete("What is the capital of France?")
+
 ```
 
 ## Info
